@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":[],"mappings":";;;AAAA,aAAA,QAAA","file":"src.54082cc5.js","sourceRoot":"../src","sourcesContent":["import './sass/main.scss';\n// import ApiService from './js/apiService';\n// import './js/markup-trending.js'\n// const moviesAPIService = new ApiService();\n// console.log(moviesAPIService.fetchPopularMovies());\n"]}

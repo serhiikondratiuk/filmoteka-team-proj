@@ -50,4 +50,4 @@ const e=document.querySelector("body"),t=document.querySelector(".theme-switch__
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/markupHome.js"),require("./js/refs/refs.js"),require("./js/main.js"),require("./js/layout/slider.js"),require("./sass/components/basicLightbox.min.css"),require("./js/components/basicLightbox.min.js"),require("./js/trailer.js"),require("./js/searchMovie"),require("./js/components/buttonUp.js"),require("./js/theme-switch");
 },{"./sass/main.scss":"clu1","./js/markupHome.js":"vuCd","./js/refs/refs.js":"fi17","./js/main.js":"d6sW","./js/layout/slider.js":"GL8L","./sass/components/basicLightbox.min.css":"d6sW","./js/components/basicLightbox.min.js":"BNjD","./js/trailer.js":"J7DG","./js/searchMovie":"HUSp","./js/components/buttonUp.js":"ljXZ","./js/theme-switch":"JIhF"}]},{},["Focm"], null)
-//# sourceMappingURL=/filmoteka-team-proj/src.fe7d7340.js.map
+//# sourceMappingURL=/filmoteka-team-proj/src.04403d66.js.map

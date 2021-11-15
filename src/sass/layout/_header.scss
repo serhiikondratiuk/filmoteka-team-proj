@@ -105,7 +105,7 @@
 .nav-list__link {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 12px;
+  font-size: $main-fontsize;
   line-height: 1.17;
   color: $white;
 
@@ -131,7 +131,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: 280px;
+  max-width: 280px;
   height: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -168,6 +168,10 @@
     transition-duration: $time;
     transition-timing-function: $cubic;
   }
+}
+
+.search-form__icon {
+  stroke: $white;
 }
 
 .search-form__btn {

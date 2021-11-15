@@ -8,6 +8,7 @@
 @import './base/reset';
 @import './base/base';
 @import './base/container';
+
 //=============components==============
 @import './components/backdrop';
 @import './components/modal-film';
@@ -16,19 +17,18 @@
 @import './components/button-close';
 @import './components/filter';
 @import './components/button-close-trailer';
-@import './components/library-cleaner';
 @import './components/button-up';
 @import './components/loader';
-@import './components/_logo.scss';
-@import './components/theme-switch-toggle.scss';
-@import './components/theme-switch.scss';
-@import './components/pagination.scss';
+@import './components/logo';
+@import './components/theme-switch-toggle';
+@import './components/theme-switch';
+@import './components/pagination';
+@import './components/trailer-button';
 
 //=========layout===============
-@import './layout/home.scss';
-@import './layout/slider.scss';
+@import './layout/home';
+@import './layout/slider';
 @import './layout/trailer';
 @import './layout/library';
 @import './layout/footer';
 @import './layout/header';
-

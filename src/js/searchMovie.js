@@ -3,9 +3,10 @@
 import movieTemplate from '../templates/film-card-template.hbs';
 import { myNotice, myError, myAlert } from './components/pnotify';
 import refs from './refs/refs';
-import { getFilm } from './modalFilm.js';
+import { getFilm } from './modal-film.js';
 import { convertingData } from './data-converting-functions.js';
 import { showLoader } from './loader.js';
+import { onCreateTrailerLink } from './trailer.js';
 
 const nameOfMovieToSearch = window.ApiService;
 
@@ -29,7 +30,7 @@ function init() {
       showLoader();
       clearContent();
       renderMakrup(data.results);
-      getFilm(data.results);
+      // getFilm(data.results);
       window.pagination.draw(data);
     });
 }
@@ -83,6 +84,8 @@ function fetchSearch() {
 
 function renderMakrup(results) {
   refs.gallery.insertAdjacentHTML('beforeend', movieTemplate(results));
+  getFilm(results);
+  onCreateTrailerLink(document.querySelectorAll('.btn-youtube'));
 }
 
 function clearContent() {
